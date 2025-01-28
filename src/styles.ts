@@ -5,6 +5,7 @@ const EstiloGlobal = createGlobalStyle`
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
+  list-style: none;
 }
 
 body {
@@ -33,6 +34,34 @@ export const Container = styled.div`
 
   img {
     max-width: 100%;
+  }
+
+  .TituloProjeto, h1 {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .btnEnviar {
+    color: #fff;
+    font-size: 14px;
+    background-color: #4476BF;
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block;
+    margin-top: 24px;
+  }
+
+  ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 36px;
+  row-gap: 40px;
+
+  @media (max-width: 768px) {
+  grid-template-columns: 1fr;
+  column-gap: 0;
+  row-gap: 16px;
+    }
   }
 
 `
