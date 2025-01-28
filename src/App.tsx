@@ -1,6 +1,6 @@
 import React from 'react'
 import Sobre from './containers/Sobre'
-import Sidebar from './containers/UserProfile/UserProfile'
+import Sidebar from './components/UserProfile/UserProfile'
 import EstiloGlobal, { Container } from './styles'
 
 function App() {

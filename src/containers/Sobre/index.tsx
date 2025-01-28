@@ -82,6 +82,48 @@ const Sobre = () => (
         <a className='btnEnviar' href="">Visualizar</a>
         </Card>
       </li>
+      <li>
+        <Card>
+        <Titulo>Projeto lista de tarefas</Titulo>
+        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
+        <a className='btnEnviar' href="">Visualizar</a>
+        </Card>
+      </li>
+      <li>
+        <Card>
+        <Titulo>Projeto lista de tarefas</Titulo>
+        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
+        <a className='btnEnviar' href="">Visualizar</a>
+        </Card>
+      </li>
+      <li>
+        <Card>
+        <Titulo>Projeto lista de tarefas</Titulo>
+        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
+        <a className='btnEnviar' href="">Visualizar</a>
+        </Card>
+      </li>
+      <li>
+        <Card>
+        <Titulo>Projeto lista de tarefas</Titulo>
+        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
+        <a className='btnEnviar' href="">Visualizar</a>
+        </Card>
+      </li>
+      <li>
+        <Card>
+        <Titulo>Projeto lista de tarefas</Titulo>
+        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
+        <a className='btnEnviar' href="">Visualizar</a>
+        </Card>
+      </li>
+      <li>
+        <Card>
+        <Titulo>Projeto lista de tarefas</Titulo>
+        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
+        <a className='btnEnviar' href="">Visualizar</a>
+        </Card>
+      </li>
     </ul>
   </section>
 )
