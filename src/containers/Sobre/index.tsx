@@ -5,8 +5,8 @@ import Paragrafo from '../../components/Paragrafo'
 import React from 'react'
 import { GithubSecao } from './styles'
 
-const Card = styled.div`
-  border: 1px solid #c1c1c1;
+export const Card = styled.div`
+  border: 1px solid ${(props) => props.theme.corDaBorda};
   padding: 16px;
 `
 
@@ -24,104 +24,132 @@ const Sobre = () => (
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=webdesigner279&layout=compact&langs_count=7&theme=dracula" />
     </GithubSecao>
 
-    <h1 className='TituloProjeto'>Projetos</h1>
+    <h1 className="TituloProjeto">Projetos</h1>
     <ul>
       <li>
         <Card>
-        <Titulo>Projeto lista de tarefas</Titulo>
-        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
-        <a className='btnEnviar' href="">Visualizar</a>
+          <Titulo>Projeto lista de tarefas</Titulo>
+          <Paragrafo tipo="secundario">Lista de tarefas com VueJS</Paragrafo>
+          <a className="btnEnviar" href="">
+            Visualizar
+          </a>
         </Card>
       </li>
       <li>
         <Card>
-        <Titulo>Projeto lista de tarefas</Titulo>
-        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
-        <a className='btnEnviar' href="">Visualizar</a>
+          <Titulo>Projeto lista de tarefas</Titulo>
+          <Paragrafo tipo="secundario">Lista de tarefas com VueJS</Paragrafo>
+          <a className="btnEnviar" href="">
+            Visualizar
+          </a>
         </Card>
       </li>
       <li>
         <Card>
-        <Titulo>Projeto lista de tarefas</Titulo>
-        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
-        <a className='btnEnviar' href="">Visualizar</a>
+          <Titulo>Projeto lista de tarefas</Titulo>
+          <Paragrafo tipo="secundario">Lista de tarefas com VueJS</Paragrafo>
+          <a className="btnEnviar" href="">
+            Visualizar
+          </a>
         </Card>
       </li>
       <li>
         <Card>
-        <Titulo>Projeto lista de tarefas</Titulo>
-        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
-        <a className='btnEnviar' href="">Visualizar</a>
+          <Titulo>Projeto lista de tarefas</Titulo>
+          <Paragrafo tipo="secundario">Lista de tarefas com VueJS</Paragrafo>
+          <a className="btnEnviar" href="">
+            Visualizar
+          </a>
         </Card>
       </li>
       <li>
         <Card>
-        <Titulo>Projeto lista de tarefas</Titulo>
-        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
-        <a className='btnEnviar' href="">Visualizar</a>
+          <Titulo>Projeto lista de tarefas</Titulo>
+          <Paragrafo tipo="secundario">Lista de tarefas com VueJS</Paragrafo>
+          <a className="btnEnviar" href="">
+            Visualizar
+          </a>
         </Card>
       </li>
       <li>
         <Card>
-        <Titulo>Projeto lista de tarefas</Titulo>
-        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
-        <a className='btnEnviar' href="">Visualizar</a>
+          <Titulo>Projeto lista de tarefas</Titulo>
+          <Paragrafo tipo="secundario">Lista de tarefas com VueJS</Paragrafo>
+          <a className="btnEnviar" href="">
+            Visualizar
+          </a>
         </Card>
       </li>
       <li>
         <Card>
-        <Titulo>Projeto lista de tarefas</Titulo>
-        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
-        <a className='btnEnviar' href="">Visualizar</a>
+          <Titulo>Projeto lista de tarefas</Titulo>
+          <Paragrafo tipo="secundario">Lista de tarefas com VueJS</Paragrafo>
+          <a className="btnEnviar" href="">
+            Visualizar
+          </a>
         </Card>
       </li>
       <li>
         <Card>
-        <Titulo>Projeto lista de tarefas</Titulo>
-        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
-        <a className='btnEnviar' href="">Visualizar</a>
+          <Titulo>Projeto lista de tarefas</Titulo>
+          <Paragrafo tipo="secundario">Lista de tarefas com VueJS</Paragrafo>
+          <a className="btnEnviar" href="">
+            Visualizar
+          </a>
         </Card>
       </li>
       <li>
         <Card>
-        <Titulo>Projeto lista de tarefas</Titulo>
-        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
-        <a className='btnEnviar' href="">Visualizar</a>
+          <Titulo>Projeto lista de tarefas</Titulo>
+          <Paragrafo tipo="secundario">Lista de tarefas com VueJS</Paragrafo>
+          <a className="btnEnviar" href="">
+            Visualizar
+          </a>
         </Card>
       </li>
       <li>
         <Card>
-        <Titulo>Projeto lista de tarefas</Titulo>
-        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
-        <a className='btnEnviar' href="">Visualizar</a>
+          <Titulo>Projeto lista de tarefas</Titulo>
+          <Paragrafo tipo="secundario">Lista de tarefas com VueJS</Paragrafo>
+          <a className="btnEnviar" href="">
+            Visualizar
+          </a>
         </Card>
       </li>
       <li>
         <Card>
-        <Titulo>Projeto lista de tarefas</Titulo>
-        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
-        <a className='btnEnviar' href="">Visualizar</a>
+          <Titulo>Projeto lista de tarefas</Titulo>
+          <Paragrafo tipo="secundario">Lista de tarefas com VueJS</Paragrafo>
+          <a className="btnEnviar" href="">
+            Visualizar
+          </a>
         </Card>
       </li>
       <li>
         <Card>
-        <Titulo>Projeto lista de tarefas</Titulo>
-        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
-        <a className='btnEnviar' href="">Visualizar</a>
+          <Titulo>Projeto lista de tarefas</Titulo>
+          <Paragrafo tipo="secundario">Lista de tarefas com VueJS</Paragrafo>
+          <a className="btnEnviar" href="">
+            Visualizar
+          </a>
         </Card>
       </li>
       <li>
         <Card>
-        <Titulo>Projeto lista de tarefas</Titulo>
-        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
-        <a className='btnEnviar' href="">Visualizar</a>
+          <Titulo>Projeto lista de tarefas</Titulo>
+          <Paragrafo tipo="secundario">Lista de tarefas com VueJS</Paragrafo>
+          <a className="btnEnviar" href="">
+            Visualizar
+          </a>
         </Card>
       </li>
       <li>
         <Card>
-        <Titulo>Projeto lista de tarefas</Titulo>
-        <Paragrafo tipo='secundario'>Lista de tarefas com VueJS</Paragrafo>
-        <a className='btnEnviar' href="">Visualizar</a>
+          <Titulo>Projeto lista de tarefas</Titulo>
+          <Paragrafo tipo="secundario">Lista de tarefas com VueJS</Paragrafo>
+          <a className="btnEnviar" href="">
+            Visualizar
+          </a>
         </Card>
       </li>
     </ul>

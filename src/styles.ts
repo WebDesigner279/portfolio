@@ -1,5 +1,7 @@
 import styled, { createGlobalStyle } from 'styled-components'
 
+import { Theme } from './themes/dark'
+
 const EstiloGlobal = createGlobalStyle`
   * {
   margin: 0;
@@ -11,6 +13,7 @@ const EstiloGlobal = createGlobalStyle`
 body {
   padding-top: 80px;
   padding-bottom: 80px;
+  background-color: ${(props) => (props.theme as Theme).corDeFundo};
 
   @media (max-width: 768px) {
   padding-top: 16px;
@@ -33,15 +36,16 @@ export const Container = styled.div`
     display: block;
   }
 
-  .TituloProjeto, h1 {
+  .TituloProjeto,
+  h1 {
     font-size: 16px;
     margin-bottom: 16px;
   }
 
   .btnEnviar {
-    color: #fff;
+    color: ${(props) => props.theme.corDeFundo};
     font-size: 14px;
-    background-color: #4476BF;
+    background-color: ${(props) => props.theme.corDeFundoBotao};
     text-decoration: none;
     padding: 8px;
     display: inline-block;
@@ -49,16 +53,15 @@ export const Container = styled.div`
   }
 
   ul {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 36px;
-  row-gap: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 36px;
+    row-gap: 40px;
 
-  @media (max-width: 768px) {
-  grid-template-columns: 1fr;
-  column-gap: 0;
-  row-gap: 16px;
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      column-gap: 0;
+      row-gap: 16px;
     }
-}
-
+  }
 `
